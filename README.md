@@ -155,7 +155,7 @@ No known bugs at this time.
 
 ## Authors
 Francis Murungi - [Github](https://github.com/francis951) / [Twitter](https://twitter.com/francis_951)  
-Job Nayere - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
+Job Nayere - [Github](https://github.com/nayere) / [Twitter](https://twitter.com/job_davvy)
 
 Second part of Airbnb_clone
 ## License
