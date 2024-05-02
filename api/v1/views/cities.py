@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-''' route for handling State objects and operations'''
-
-from flask import Flask
-from flask import Flask, abort
-from api.v1.views import app_views
-from os import name
-from models.state import State
-from flask import request
+"""
+route for handling Amenity objects and operations
+"""
+from flask import jsonify, abort, request
+from api.v1.views import app_views, storage
+from models.amenity import Amenity
 
 
 @app_views.route("/states/<state_id>/cities", methods=["GET"],
