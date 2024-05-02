@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """
 route for handling place and amenities linking
