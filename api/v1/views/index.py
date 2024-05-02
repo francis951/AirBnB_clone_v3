@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-''' index'''
+"""
+index
+"""
 
-from flask import Flask
-from flask import Flask, abort
+from flask import jsonify
 from api.v1.views import app_views
-from os import name
-from models.state import State
-from flask import request
+
+from models import storage
 
 
 @app_views.route("/status", methods=['GET'], strict_slashes=False)
