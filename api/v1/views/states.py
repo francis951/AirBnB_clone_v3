@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-''' new view for State objects'''
-
-from flask import Flask
-from flask import Flask, abort
-from api.v1.views import app_views
-from os import name
+"""
+route for handling State objects and operations
+"""
+from flask import jsonify, abort, request
+from api.v1.views import app_views, storage
 from models.state import State
-from flask import request
 
 
 @app_views.route("/states", methods=["GET"], strict_slashes=False)
